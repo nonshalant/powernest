@@ -1,44 +1,48 @@
 import React from "react";
 
 const OurStrengths = () => {
-  const strengths = [
-    {
-      "Senior HR Managers":
-        "Industry-specific knowledge to address unique workforce challenges",
-    },
-    {
-      "Elite Fundraising Specialists":
-        "Strong connections with venture capital firms",
-    },
-    {
-      "Business Development Managers":
-        "Industry-specific knowledge to address unique workforce challenges",
-    },
-    {
-      "Talent Acquisition Specialists": "Finding and securing top-tier talent",
-    },
-    {
-      "Learning & Development Experts":
-        "Upskilling and professional growth programs",
-    },
-    {
-      "Performance Management Specialists":
-        "Driving excellence through evaluation and feedback",
-    },
-    { "Compensation & Benefits Analysts": "Designing competitive packages" },
-    {
-      "Employee Relations Specialists":
-        "Building harmonious workplace environments",
-    },
-    {
-      "HR Analytics Experts":
-        "Data-driven insights for strategic decision-making",
-    },
-    {
-      "Organizational Development Professionals":
-        "Enhancing structures and processes for growth",
-    },
-  ];
+const specialists = [
+  {
+    key: "Senior HR Managers",
+    value: "Industry-specific knowledge to address unique workforce challenges",
+  },
+  {
+    key: "Elite Fundraising Specialists",
+    value: "Strong connections with venture capital firms",
+  },
+  {
+    key: "Business Development Managers",
+    value: "Industry-specific knowledge to address unique workforce challenges",
+  },
+  {
+    key: "Talent Acquisition Specialists",
+    value: "Finding and securing top-tier talent",
+  },
+  {
+    key: "Learning & Development Experts",
+    value: "Upskilling and professional growth programs",
+  },
+  {
+    key: "Performance Management Specialists",
+    value: "Driving excellence through evaluation and feedback",
+  },
+  {
+    key: "Compensation & Benefits Analysts",
+    value: "Designing competitive packages",
+  },
+  {
+    key: "Employee Relations Specialists",
+    value: "Building harmonious workplace environments",
+  },
+  {
+    key: "HR Analytics Experts",
+    value: "Data-driven insights for strategic decision-making",
+  },
+  {
+    key: "Organizational Development Professionals",
+    value: "Enhancing structures and processes for growth",
+  },
+];
   return (
     <section className="strengths">
       <div className="stengths-container">
@@ -52,10 +56,10 @@ const OurStrengths = () => {
         </div>
         <div className="strength">
           <ol>
-            {strengths.map((strength) => (
+            {specialists.map((specialist) => (
               <React.Fragment>
-                <li>{strength}</li>
-                <span></span>
+                <li>{specialist.key}</li>
+                <span>{specialist.value}</span>
               </React.Fragment>
             ))}
           </ol>

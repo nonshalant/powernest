@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroSection from './partials/HeroSection'
+import OurStrengths from './partials/OurStrengths'
 
 const About = () => {
   return (
-    <div>About</div>
+    <div>
+        <HeroSection />
+        <OurStrengths />
+    </div>
   )
 }
 
