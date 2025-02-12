@@ -12,7 +12,7 @@ import Talent from './partials/Talent'
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
         <HeroSection />
         <Rectangles />
         <CaptialFirms />

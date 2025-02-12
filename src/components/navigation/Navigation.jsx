@@ -1,5 +1,6 @@
 import React from 'react'
 import Desktop from './Desktop'
+import './navigation.css'
 
 const Navigation = () => {
   return (
