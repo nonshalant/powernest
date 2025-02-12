@@ -41,15 +41,15 @@ const features = [
 const WhyChooseUs = () => {
   return (
     <section className="why-choose-us">
-      <h3 className="subheading">Why Choose Power Nest Talent?</h3>
-      <h2 className="heading">
+      <h4 className="subheading">Why Choose Powernest Talent?</h4>
+      <h1 className="heading">
         Elevate Your Organization <br />
         <span>with Unmatched Expertise and Insight</span>
-      </h2>
+      </h1>
       <p className="description">
-        At Power Nest Talent, we set ourselves apart with a unique combination
-        of psychology-driven strategies, expert teams, and a global network.
-        Here’s why businesses trust us to unlock their full potential:
+        At Powernest Talent, we set ourselves apart with a unique combination of
+        psychology-driven strategies, expert teams, and a global network. Here’s
+        why businesses trust us to unlock their full potential:
       </p>
 
       <div className="features-grid">
