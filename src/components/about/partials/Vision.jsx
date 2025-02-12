@@ -1,10 +1,11 @@
 import React from "react";
+import fifthImage from "../../../images/5.jpeg"
 
 const Vision = () => {
   return (
     <section className="vision">
       <div className="vision-container">
-        <div className="vision-row">
+        <div className="vision-row flex">
           <h2>Leading with vision and experience</h2>
           <h1>
             We aim to be the go-to partner for organizations seeking to align
@@ -19,7 +20,7 @@ const Vision = () => {
           </p>
         </div>
         <div className="vision-row">
-            <img src="" alt="image" />
+          <img src={fifthImage} alt="image" />
         </div>
       </div>
     </section>

@@ -1,4 +1,5 @@
 import React from 'react'
+import sixthImage from "../../../images/6.jpeg"
 
 const SolutionsDrop = () => {
   return (
@@ -10,9 +11,9 @@ const SolutionsDrop = () => {
           <p>Core HR Solutions</p>
         </div>
         <div className="solutions-row">
-          <img src="" alt="image" />
+          <img src={sixthImage} alt="image" />
         </div>
-        <div className="solutions-row">
+        <div className="solutions-row solution-flex">
           <h2>Power Nest Benifits For Employees</h2>
           <ul>
             <li>Access to pre-screened, psychologically assessed talent</li>

@@ -47,7 +47,7 @@ const specialists = [
     <section className="strengths">
       <div className="stengths-container">
         <div className="strengths-headline">
-          <h1>Our Team Strength</h1>
+          <h1>Our Team <br /> Strength</h1>
           <h2>
             Our powerhouse team combines diverse expertise to address every
             aspect of talent management and organizational growth. Our
@@ -57,10 +57,10 @@ const specialists = [
         <div className="strength">
           <ol>
             {specialists.map((specialist) => (
-              <React.Fragment>
+              <div className="strength-container">
                 <li>{specialist.key}</li>
                 <span>{specialist.value}</span>
-              </React.Fragment>
+              </div>
             ))}
           </ol>
         </div>

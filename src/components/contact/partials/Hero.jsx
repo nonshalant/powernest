@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
+  const handleSubmit = () => {};
+
   return (
     <section>
       <div className="contact-hero">
@@ -59,7 +61,7 @@ const Hero = () => {
               <input type="text" name="" id="" />
             </div>
             <div className="row3">
-                <label htmlFor="">How can we help?</label>
+              <label htmlFor="">How can we help?</label>
               <textarea name="" id=""></textarea>
             </div>
             <button>Connect wit Powernest</button>
@@ -68,6 +70,6 @@ const Hero = () => {
       </div>
     </section>
   );
-}
+};
 
-export default Hero
+export default Hero;

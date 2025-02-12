@@ -2,7 +2,13 @@
   background-color: #09000c;
   padding: 10% 5%;
   color: #ffffff;
-  /* z-index: -9999; */
+}
+
+.blur {
+  background-color: #09000c;
+  padding: 10% 5%;
+  color: #ffffff;
+  /* filter: blur(5px); */
 }
 
 .home .hero-section-h1 {
